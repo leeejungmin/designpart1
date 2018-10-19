@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Jungminbook</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link rel="stylesheet" type="text/css" href="css/waypoints.css" />
+		<script src="js/jquery.waypoints.min.js" type="text/javascript"></script>
+		<script src="js/waypoints.js" type="text/javascript"></script>
+</head>
+<body>
+
+		<header>
+			<div id="header-inner">
+					<a href="index.html" id="logo"></a>
+					<nav>
+						<a href="#" id="menu-icon"></a>
+						<ul>
+							<li><a href="index.html" class="current">HOME</a></li>
+							<li><a href="index.html" >ABOUT</a></li>
+							<li><a href="index.html" >SOMETHING</a></li>
+							<li><a href="index.html" >GOOD</a></li>
+							<li><a href="index.html" >CONTACT</a></li>
+						</ul>
+					</nav>
+			</div>
+		</header>
+
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+
+		<!--- ADD IMAGE SLIDER HERE -->
+		<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li>
+						<img src="img/bus1jpg.jpg" />
+					</li>
+					<li>
+						<img src="img/train.jpg" />
+					</li>
+					<li>
+						<img src="img/vacance.jpg" />
+					</li>
+				</ul>
+			</section>
+		</div>
+
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+
+
+
+	<div class="clearfix"> </div>
+
+	<div id="inner-wrapper">
+	<!-- start waypoint delayed animation -->
+
+	<section class="staggered-animation-container">
+
+	<section class="os-animation" data-os-animation="fadeInLeftBig" data-os-animation-delay=".3s">
+
+
+
+			<section class="one-third">
+				<div class="circle">
+					<td><i class="fa fa-users"></i></td>
+				</div>
+				<h3>AMIS</h3>
+				<p>Vous pouvez rencontrer autre person! </p>
+			</section>
+		</section>
+<!-- End animation -->
+<section class="os-animation" data-os-animation="fadeInDownBig" data-os-animation-delay=".3s">
+
+
+			<section class="one-third">
+				<div class="circle">
+					<td><i class="fa fa-map-marker"></i></td>
+				</div>
+				<h3>LOCATION</h3>
+				<p>Amusez-vous avec vos amis à l'endroit que vous voulez! </p>
+			</section>
+
+		</section>
+		<!-- End animation -->
+		<section class="os-animation" data-os-animation="fadeInRightBig" data-os-animation-delay=".3s">
+
+			<section class="one-third">
+				<div class="circle">
+					<td><i class="fa fa-check-square-o"></i></td>
+				</div>
+				<h3>Bonne nouvelle</h3>
+				<p>Nous partageons une bonne journée ensemble! </p>
+				</section>
+
+			</section>
+			<!-- End animation -->
+
+
+<div class="clearfix"> </div>
+<section class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay=".3s">
+
+
+		<article>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmKQPzpmzcMteJYVTEvdJyPZzfkxMbQSS7wBbhG1nYvY8Km6zH" />
+		</article>
+
+
+</section>
+<!-- End animation -->
+
+<section class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".3s">
+
+		<aside>
+			<h3>Cette photo</h3>
+			<br />
+			<ul class="gym">
+					<li><h4>Tres belle</h4> </li>
+					<li><h4>Branche</h4> </li>
+					<li><h4>Jeune</h4> </li>
+					<li><h4>fleur</h4> </li>
+			</ul>
+		</aside>
+
+	</section>
+<!-- End animation -->
+
+<div class="clearfix"> </div>
+
+<section class="os-animation" data-os-animation="bounceInLeft" data-os-animation-delay=".3s">
+	<section class="one-third">
+		<h3>BMW</h3>
+		<img src="img/bmw.jpg" />
+		<p>
+			BMW est l’un des constructeurs les plus engagés sur la voie de l’électrification et le déploiement des systèmes d’assistance à la conduite, technologies qui ouvrent la voie à la conduite autonome. Le constructeur a récemment organisé un tech day pour faire le point sur son offre actuelle et à venir.
+		</p>
+	</section>
+
+</section>
+<!-- End animation -->
+
+<section class="os-animation" data-os-animation="bounceInDown" data-os-animation-delay=".3s">
+	<section class="one-third">
+		<h3>MERCEDES</h3>
+		<img src="img/mercedes.jpeg" />
+		<p>
+			This is MERCEDES. Exclusive reports and current films: experience a broad range of topics from the fascinating world of Mercedes-Benz. To find out about the offers in your country, please go to the Mercedes-Benz website for your country
+		</p>
+	</section>
+
+</section>
+<!-- End animation -->
+
+<section class="os-animation" data-os-animation="bounceInRight" data-os-animation-delay=".3s">
+	<section class="one-third">
+		<h3>AUDI</h3>
+		<img src="img/audi.jpg" />
+		<p>
+			This is AUDI. Audi looks set to follow in Tesla's footsteps and offer its new A9 as a luxurious electric-only model. This new car, designed to rival the likes of ...
+		</p>
+	</section>
+
+</section>
+<!-- End animation -->
+
+</div><!--  End Inner Wrapper -->
+
+<div class="clearfix"> </div>
+
+
+<section class="os-animation" data-os-animation="bounceInRight" data-os-animation-delay=".3s">
+
+	<footer>
+		<div id="footer-inner">
+			<section class="one-third" id="footer-third">
+				<h3>Contact</h3>
+				<p class="footercontact">MOI
+					<b class="phone">777-777-7777</b><br /><br />
+					75011 Paris <br />
+					Rue 4 Titon<br /></p>
+				</section>
+				<section class="one-third" id="footer-third">
+					<H3>Social</H3>
+					<br />
+					<ul class="social">
+						<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a> </li>
+						<li><a href="#" target="_blank"><i class="fa fa-google-plus"></i></a> </li>
+						<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a> </li>
+						<li><a href="#" target="_blank"><i class="fa fa-youtube"></i></a> </li>
+					</ul>
+				</section>
+				<section class="one-third" id="footer-third-last">
+					<h3>Pages</h3>
+					<br />
+					<h5>
+						<a href="index.html">Home</a>-
+						<a href="index.html">Name</a>-
+						<a href="index.html">Contact</a>-
+						<a href="index.html">Q&A</a>-
+					</h5>
+				</section>
+			</div>
+		</footer>
+		<footer class="second">
+			<p>
+				&copy: Jungminbook, 2018
+			</p>
+		</footer>
+		<!-- End waypoint Delyaed animation -->
+	</section>
+	<br />
+</section>
+<!-- End animation -->
+</body>
+</html>
